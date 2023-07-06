@@ -1,0 +1,19 @@
+{
+  "name": "firebase-auth-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "esbuild main.js --bundle --outfile=out.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^12.4.2"
+  },
+  "dependencies": {
+    "esbuild": "0.18.11"
+  }
+}
